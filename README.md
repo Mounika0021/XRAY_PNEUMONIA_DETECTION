@@ -25,14 +25,17 @@ The goal of this project is to demonstrate how **AI can assist medical diagnosis
 
 ---
 
-# 📊 Example X-Ray Images
+# 🧠 Problem Statement
 
-| Normal Chest X-Ray                                                                          | Pneumonia X-Ray                                                                             |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| ![Normal X-ray](https://upload.wikimedia.org/wikipedia/commons/8/8e/Normal_chest_X-ray.jpg) | ![Pneumonia X-ray](https://upload.wikimedia.org/wikipedia/commons/6/6f/Pneumonia_x-ray.jpg) |
+Pneumonia is a lung infection that can be detected from chest X-ray images.  
+Manual diagnosis can be time-consuming and requires expert radiologists.
 
-The model learns visual patterns in these images to classify them automatically.
+This project uses **deep learning with PyTorch** to automatically analyze chest X-ray images and classify them as:
 
+• **Normal**  
+• **Pneumonia**
+
+The system learns visual patterns from thousands of X-ray scans to assist in medical diagnosis.
 ---
 
 # ⚙️ Model Pipeline
